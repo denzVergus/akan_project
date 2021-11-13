@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AKAN NAME GENERATOR</title>
+  <link rel="stylesheet" href="bootstrap.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class=" text-center" id="header">
+      <h1> <strong> AKAN NAME GENERATOR</strong></h1>
+      <div class="info">
+        <p>This website sole purpose is to provide naming service to children born
+            It very simple to use ,meaning that you should put the child's birthday and it will
+            the day of the week the child was born, depending on their gender if they are male or female.
+            Hello there! This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
+        </p>
+      </div>
+    </div>
+    
+    <br>You can find a name for your child by filling the form below then submit.</br>
+    <form id="form" method="GET">
+      Date:<input type="number" id="date">
+      Month:<input type="number" id="month">
+      Year:<input type="number" id="year">
+      <select id="gender">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+      </select>
+      <input type="submit" value="Submit" id="submitButton" class="btn btn-primary"
+        onclick="getAkanName(); SUBMIT(); return false" />
+      <h2 class="text-center" id="result"></h2>
+    </form>
+    <div class="male">
+        <h4><u>MALE CHILD</u></h4>
+        <ol>
+            <li>    Sunday: Kwasi</li>
+            <li>Monday: Kwadwo</li>
+            <li>Tuesday: Kwabena</li>
+            <li>Wednesday: Kwaku</li>
+            <li>Thursday: Yaw</li>
+            <li>Friday: Kofi</li>
+            <li>Saturday: Kwame</li>
+          </ol>
+    </div>
+
+          <div class="female">
+           <h4><u>FEMALE CHILD</u></h4>
+          <ol>
+            <li>Sunday: Akosua</li>
+            <li>Monday: Adwoa</li>
+            <li>Tuesday: Abenaa</li>
+            <li>Wednesday: Akua</li>
+            <li>Thursday: Yaa</li>
+            <li>Friday: Afua</li>
+            <li>Saturday: Ama</li>
+          </ol>
+        </div>
+</div>
+</body>
+<script src="script.js"></script>
+<footer class="text-center">
+  Copyright &copy; 2021 designed by DenisKipchirchir.
+</footer>
+
+</html>

@@ -1,0 +1,47 @@
+.border {
+    border-radius: 30px;
+    background-color: #17a2b8;
+  }
+  
+  h1 {
+    color: #78030E;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #10E37F;
+  }
+  
+  h4 {
+    color: #07DEE3;
+  }
+  
+  body {
+    background-color: green;
+    background-image: url(/images/index.png);
+    background-repeat: no-repeat;
+  
+  }
+  .info{
+    text-align: center;
+  }
+  .female{
+    text-align: center;
+    background-color: sienna;
+  }
+  ul li {
+    display: inline-block;
+    width: 20%;
+  }
+  ul li {
+    display: inline-block;
+    margin-left:7px;
+  }
+  .male{
+    text-align: center;
+    background-color:ivory;
+  }
+  
+  
+
+  
