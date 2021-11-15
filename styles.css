@@ -9,14 +9,14 @@
   }
   
   h2 {
-    color: black;
+    color:blue;
   }
   
   h4 {
-    color: black;
+    color: blue;
   }
   body{
-    background-image: url(/images/background.jpeg);
+    background-color: gold;
     background-size: cover;
     background-attachment: fixed;
     
@@ -26,9 +26,12 @@
   }
   .female{
     text-align: center;
-    background-color: yellowgreen;
+    background-color: blanchedalmond;
+    background-image: url(/images/female1.jpeg);
+    background-attachment: fixed;
+    background-size: auto;
     height: 300px;
-    border: 10px solid red ;
+    border: 10px solid black;
     margin: 10px;
   }
   ul li {
@@ -41,10 +44,12 @@
   }
   .male{
     text-align: center;
-    background-color:yellowgreen;
+    background-color: blanchedalmond;
+    background-image: url(/images/male.jpeg);
+    background-size: auto;
     height: 300px;
     width: 50%;
-    border:10px solid red;
+    border:10px solid black;
     float:left;
   }
   .text-center{
