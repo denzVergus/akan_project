@@ -4,7 +4,7 @@
   }
   
   h1 {
-    color: #78030E;
+    color:black;
     text-align: center;
   }
   
@@ -15,19 +15,21 @@
   h4 {
     color: #07DEE3;
   }
-  
-  body {
-    background-color: green;
-    background-image: url(/images/index.png);
-    background-repeat: no-repeat;
-  
+  body{
+    background-image: url(/images/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    
   }
   .info{
     text-align: center;
   }
   .female{
     text-align: center;
-    background-color: sienna;
+    background-color: green;
+    height: 300px;
+    border: 10px solid brown;
+    margin: 10px;
   }
   ul li {
     display: inline-block;
@@ -39,7 +41,14 @@
   }
   .male{
     text-align: center;
-    background-color:ivory;
+    background-color:green;
+    height: 300px;
+    width: 50%;
+    border:10px solid brown;
+    float:left;
+  }
+  .text-center{
+    text-align: center;
   }
   
   
