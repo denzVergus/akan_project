@@ -12,8 +12,7 @@ This project is a web application that takes a user's birthday and calculates th
 <img src="images/screenshot.png">
 
 ## Live Page 
-https://github.com/vergus866/akan_project.git 
-
+https://vergus866.github.io/akan_project/
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
